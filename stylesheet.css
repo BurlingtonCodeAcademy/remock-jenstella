@@ -1,0 +1,115 @@
+/*---------------------------homepage---------------------------*/
+
+/*---header---*/
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: coral;
+  border: 1px solid black;
+}
+#home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: coral;
+  border: 1px solid blue;
+  padding: 75px;
+}
+
+#other-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 200px;
+  }
+
+/*--line break with quote--*/
+
+#line-break {
+  display: flex;
+  background: darkcyan;
+  height: 300px;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+/*---images and button---*/
+
+#images-and-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  border: black solid 1px;
+  height: 200px;
+  width: 200px;
+  background-color: cornflowerblue;
+}
+
+#tell-me-more-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 100px;
+}
+
+/*---main section---*/
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    
+}
+.right-side {
+    display: flex;
+    flex-direction: row;
+}
+
+/*----footer---*/
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: grey;
+  height: 500px;
+}
+
+.questions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#input {
+  display: flex;
+  flex-direction: column;
+}
+
+#textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+/*--------------------------blog-post--------------------------*/
+
+/*-------------------------continue-reading---------------------*/
+
+/*--------------------------learn-more--------------------------*/
