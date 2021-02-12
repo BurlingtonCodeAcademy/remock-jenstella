@@ -1,4 +1,4 @@
-/*---------------------------homepage---------------------------*/
+/* ---------------------------homepage--------------------------- */
 
 /*---header---*/
 #header {
@@ -18,11 +18,11 @@
 }
 
 #other-text {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-bottom: 200px;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 200px;
+}
 
 /*--line break with quote--*/
 
@@ -54,7 +54,7 @@
   justify-content: center;
   border: black solid 1px;
   height: 200px;
-  width: 200px;
+  width: 350px;
   background-color: cornflowerblue;
 }
 
@@ -68,24 +68,45 @@
 /*---main section---*/
 
 #main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 3px solid pink;
 }
 
 .left-side {
-    display: flex;
-    flex-direction: row;
-    
+  display: flex;
+  border: 3px solid turquoise;
+  flex-direction: column;
+  width: 55%;
 }
+.rectangle-image {
+    display:flex;
+    display:row;
+    justify-content: flex-start;
+    border: 1px solid purple;
+    height: 250px;
+    width: 500px;
+}
+.continue-reading-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 100px;
+}
+
 .right-side {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  border: 3px solid navy;
+  flex-direction: row;
+  width: 35%;
 }
 
 /*----footer---*/
 
 #footer {
   display: flex;
+  border: 3px solid black;
   flex-direction: column;
   justify-content: center;
   background-color: grey;
