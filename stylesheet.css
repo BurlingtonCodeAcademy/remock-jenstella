@@ -6,15 +6,17 @@
   flex-direction: column;
   justify-content: center;
   color: coral;
-  border: 1px solid black;
+  background-color: rgb(236, 214, 186);
 }
 #home {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: coral;
-  border: 1px solid blue;
+  color: whitesmoke;
+  background-color: tan;
   padding: 75px;
+  font-size: 45px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #other-text {
@@ -22,6 +24,9 @@
   flex-direction: row;
   justify-content: center;
   padding-bottom: 50px;
+  color: black;
+  font-style: italic;
+  font-size: 20px;
 }
 
 /*---line break---*/
@@ -41,10 +46,11 @@ hr {
 
 #quote-block {
   display: flex;
-  background: darkcyan;
+  background: rgb(185, 145, 44);
   height: 300px;
   justify-content: center;
   font-size: 25px;
+  opacity: 50%;
 }
 
 .quote {
@@ -52,6 +58,8 @@ hr {
   flex-direction: column;
   justify-content: center;
   color: white;
+  font-style: italic;
+  font-size: 45px;
 }
 
 /*---images and button---*/
@@ -65,13 +73,12 @@ hr {
 .images {
   display: flex;
   justify-content: center;
-  border: black solid 1px;
   height: 200px;
   width: 350px;
-  background-color: cornflowerblue;
 }
 .captions {
   text-align: center;
+  color: black;
 }
 
 #tell-me-more-button {
@@ -87,12 +94,11 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border: 3px solid pink;
+  background-color: rgb(236, 214, 186);
 }
 
 .left-side {
   display: flex;
-  border: 3px solid turquoise;
   flex-direction: column;
   width: 55%;
 }
@@ -100,9 +106,9 @@ hr {
   display: flex;
   display: row;
   justify-content: flex-start;
-  border: 1px solid purple;
   height: 250px;
   max-width: 85%;
+  height: 90%;
 }
 .continue-reading-button {
   display: flex;
@@ -113,16 +119,18 @@ hr {
 
 .right-side {
   display: flex;
-  border: 3px solid navy;
   flex-direction: column;
   width: 35%;
+  padding-top: 25px;
 }
 
 .date {
-  border: 2px solid coral;
+  border: 2px solid rgb(241, 120, 120);
+  background-color: rgb(241, 120, 120);
   display: flex;
   justify-content: left;
-  width: 25%;
+  width: 15%;
+  color: whitesmoke;
 }
 
 .note-images {
@@ -138,29 +146,37 @@ hr {
   justify-content: left;
   padding: 100px;
 }
+#video {
+  display: flex;
+  flex-direction: row;
+  background-color: tan;
+  justify-content: center;
+}
 
 /*----footer---*/
 
 .footer {
   display: flex;
-  border: 3px solid black;
   flex-direction: column;
   justify-content: center;
-  background-color: grey;
-  height: 500px;
+  background-color: rgb(206, 187, 160);
+  height: 600px;
 }
 
 .questions {
   display: flex;
   justify-content: center;
-  border: solid black 1px;
+  margin-top: 30px;
   margin-bottom: 25px;
+  font-size: 30px;
+}
+.input {
+  padding-top: 20px;
 }
 
 #contact-form {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   width: 35%;
   align-items: left;
   margin-right: 10px;
@@ -169,7 +185,6 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 1px solid coral;
   width: 35%;
   align-items: right;
   margin-left: 10px;
@@ -183,23 +198,23 @@ hr {
   justify-content: right;
 }
 #social-links-1 {
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 #social-links-2 {
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 #svg-container {
   display: flex;
   flex-direction: column;
-
 }
-
+#text-next-to-svg {
+  font-size: 14px;
+}
 .svg {
-  border: 2px solid black;
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
 }
 
 /*--------------------------blog-post--------------------------*/
