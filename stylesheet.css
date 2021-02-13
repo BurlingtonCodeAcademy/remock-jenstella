@@ -90,7 +90,7 @@ hr {
 
 /*---main section---*/
 
-#main {
+#main-index {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -207,7 +207,7 @@ hr {
 }
 #svg-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 #text-next-to-svg {
   font-size: 14px;
@@ -218,6 +218,141 @@ hr {
 }
 
 /*--------------------------blog-post--------------------------*/
+/*----header---*/
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: coral;
+  background-color: rgb(236, 214, 186);
+}
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 45px;
+}
+#body-blog {
+  background-color: rgb(236, 214, 186);
+}
+#main-blog {
+  background-color: rgb(236, 214, 186);
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  color: darkgray;
+  padding-bottom: 55px;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#hr-1 {
+  margin-bottom: 5px;
+}
+hr {
+  margin-bottom: 50px;
+}
+#hr-2 {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+/*---image---*/
+
+/*---main---*/
+
+.text {
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+}
+#main-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#subtitle {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.blog-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 75px;
+  max-width: 65%;
+  height: 60%;
+  background-color: rgb(236, 214, 186);
+}
+
+/*----footer---*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(206, 187, 160);
+  height: 600px;
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+.input {
+  padding-top: 20px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  align-items: left;
+  margin-right: 10px;
+}
+#social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 35%;
+  align-items: right;
+  margin-left: 10px;
+}
+#wrapper {
+  display: flex;
+  justify-content: center;
+}
+#wrapper-two {
+  display: flex;
+  justify-content: right;
+}
+#social-links-1 {
+  display: flex;
+  flex-direction: column;
+}
+#social-links-2 {
+  display: flex;
+  flex-direction: column;
+}
+#svg-container {
+  display: flex;
+  flex-direction: row;
+}
+#text-next-to-svg {
+  font-size: 14px;
+}
+.svg {
+  height: 35px;
+  width: 35px;
+}
 
 /*-------------------------continue-reading---------------------*/
 
