@@ -370,3 +370,29 @@ hr {
 /*-------------------------continue-reading---------------------*/
 
 /*--------------------------learn-more--------------------------*/
+.left-side-learn {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding-top: 25px;
+}
+.right-side-learn {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+#learn-more-header {
+  color: whitesmoke;
+  text-decoration: none;
+}
+#learn-more-sub-header {
+  color: black
+}
+
+#header-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: coral;
+  background-color: rgb(236, 214, 186);
+}
