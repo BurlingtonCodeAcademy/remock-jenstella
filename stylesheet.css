@@ -18,6 +18,9 @@
   font-size: 45px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+#home:hover {
+  color: cornflowerblue;
+}
 
 #other-text {
   display: flex;
@@ -85,7 +88,20 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 100px;
+  padding: 10px;
+}
+
+.button-class {
+  text-decoration: none;
+  color: black;
+  background-color: coral;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.button-class:hover {
+  background-color: white;
+  color: black;
 }
 
 /*---main section---*/
@@ -258,6 +274,18 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: cornflowerblue;
+}
+#white-text:hover {
+  color: cornflowerblue;
+}
+#just-another-link:hover {
+  color: cornflowerblue;
+}
+.button {
+
+}
 #hr-1 {
   margin-bottom: 5px;
 }
@@ -287,11 +315,13 @@ hr {
   display: flex;
   flex-direction: row;
   text-align: left;
+  width: 55%;
 }
 #subtitle-blog {
   display: flex;
   flex-direction: row;
-  align-self: left;
+  justify-self: flex-start;
+  width: 55%;
 }
 .blog-image {
   height: auto;
@@ -385,6 +415,8 @@ hr {
   color: whitesmoke;
   text-decoration: none;
 }
+
+
 #learn-more-sub-header {
   color: black
 }
