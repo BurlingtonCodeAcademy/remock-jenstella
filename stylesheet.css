@@ -165,7 +165,7 @@ hr {
   flex-direction: row;
   justify-content: left;
   padding: 100px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 #video {
   display: flex;
@@ -284,7 +284,6 @@ a:hover {
   color: cornflowerblue;
 }
 .button {
-
 }
 #hr-1 {
   margin-bottom: 5px;
@@ -397,7 +396,6 @@ hr {
   width: 35px;
 }
 
-/*-------------------------continue-reading---------------------*/
 
 /*--------------------------learn-more--------------------------*/
 .left-side-learn {
@@ -416,9 +414,8 @@ hr {
   text-decoration: none;
 }
 
-
 #learn-more-sub-header {
-  color: black
+  color: black;
 }
 
 #header-wrapper {
