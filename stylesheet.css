@@ -6,14 +6,14 @@
   flex-direction: column;
   justify-content: center;
   color: coral;
-  background-color: rgb(236, 214, 186);
+  background-color: whitesmoke236;
 }
 #home {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: whitesmoke;
-  background-color: tan;
+  color: black;
+  background-color: whitesmoke;
   padding: 75px;
   font-size: 45px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -49,7 +49,7 @@ hr {
 
 #quote-block {
   display: flex;
-  background: rgb(185, 145, 44);
+  background: rgb(83, 103, 158);
   height: 300px;
   justify-content: center;
   font-size: 25px;
@@ -110,7 +110,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: rgb(236, 214, 186);
+  background-color: whitesmoke;
 }
 
 .left-side {
@@ -170,8 +170,9 @@ hr {
 #video {
   display: flex;
   flex-direction: row;
-  background-color: tan;
+  background-color: whitesmoke;
   justify-content: center;
+  padding-top: 25px;
 }
 
 /*----footer---*/
@@ -180,7 +181,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(206, 187, 160);
+  background-color: whitesmoke;
   height: 600px;
 }
 
@@ -245,20 +246,20 @@ hr {
   flex-direction: column;
   justify-content: center;
   color: coral;
-  background-color: rgb(236, 214, 186);
+  background-color: whitesmoke;
 }
 h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: whitesmoke;
+  color: black;
   font-size: 45px;
 }
 #body-blog {
-  background-color: rgb(236, 214, 186);
+  background-color: whitesmoke;
 }
 #main-blog {
-  background-color: rgb(236, 214, 186);
+  background-color: whitesmoke;
 }
 h4 {
   display: flex;
@@ -267,7 +268,7 @@ h4 {
   padding-bottom: 55px;
 }
 #white-text {
-  color: whitesmoke;
+  color: black;
   text-decoration: none;
 }
 a {
@@ -325,7 +326,7 @@ hr {
 .blog-image {
   height: auto;
   width: 600px;
-  background-color: rgb(236, 214, 186);
+  background-color: whitesmoke;
 }
 #blog-image-div {
   display: flex;
@@ -410,7 +411,7 @@ hr {
   width: 55%;
 }
 #learn-more-header {
-  color: whitesmoke;
+  color: black;
   text-decoration: none;
 }
 
@@ -423,5 +424,5 @@ hr {
   flex-direction: column;
   justify-content: center;
   color: coral;
-  background-color: rgb(236, 214, 186);
+  background-color: whitesmoke;
 }
