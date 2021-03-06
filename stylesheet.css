@@ -113,6 +113,15 @@ hr {
   background-color: whitesmoke;
 }
 
+#something1 {
+  padding-bottom: 5px;
+  border-bottom: solid grey 1px;
+}
+
+#something {
+  padding-bottom: 20px;
+}
+
 .left-side {
   display: flex;
   flex-direction: column;
@@ -165,6 +174,7 @@ hr {
   flex-direction: row;
   justify-content: left;
   padding: 100px;
+  padding-bottom: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 #video {
@@ -173,6 +183,7 @@ hr {
   background-color: whitesmoke;
   justify-content: center;
   padding-top: 25px;
+  padding-bottom: 15px;
 }
 
 /*----footer---*/
