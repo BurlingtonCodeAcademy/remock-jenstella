@@ -113,12 +113,12 @@ hr {
   background-color: whitesmoke;
 }
 
-#something1 {
+#something-post-top {
   padding-bottom: 5px;
   border-bottom: solid grey 1px;
 }
 
-#something {
+#something-post {
   padding-bottom: 20px;
 }
 
@@ -142,7 +142,7 @@ hr {
   color: black;
 }
 
-#just-another-link {
+#just-another-post-link {
   text-decoration: none;
   color: black;
 }
@@ -165,8 +165,8 @@ hr {
 .note-images {
   width: 200px;
   height: 200px;
-  border: solid black 2px;
   float: left;
+  padding-right: 5px;
 }
 
 .learn-more-button {
@@ -292,7 +292,7 @@ a:hover {
 #white-text:hover {
   color: cornflowerblue;
 }
-#just-another-link:hover {
+#just-another-post-link:hover {
   color: cornflowerblue;
 }
 .button {
